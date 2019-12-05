@@ -1,0 +1,107 @@
+[INFO  - 2019-11-01T11:52:54.658Z] GhostDriver - Main - running on port 42105
+[INFO  - 2019-11-01T11:52:55.595Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-11-01T11:52:55.595Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.customHeaders:  - {}
+[INFO  - 2019-11-01T11:52:55.596Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-11-01T11:52:55.596Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 24525a80-fc9e-11e9-b127-8d8c6d73bd32
+[ERROR - 2019-11-01T11:52:58.897Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: Opta Widget Application Error: Opta settings not found (SETTINGS::OPTA_SETTINGS)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:58.897Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  (anonymous function) (https://secure.widget.cloud.opta.net/v3/v3.opta-widgets.js:28)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.403Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: Error: [ng:areq] http://errors.angularjs.org/1.2.11/ng/areq?p0=menuHeaderTop&p1=not%20a%20function%2C%20got%20undefined
+tb@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:899
+Pa@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:957
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:7:510
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:24566
+q@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:1:907
+F@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:20528
+f@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:14151
+f@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:14168
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:13841
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:592
+$eval@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:10:3008
+$apply@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:10:3291
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:554
+d@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:7777
+c@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:445
+Xb@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:649
+https://www.eluniversal.com.mx/sites/default/files/js/js_5MBSDVaKp0ZrTbereBRwxNdliSHd70wm-vT7a24Zhu8.js:39:932
+o@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:29350
+add@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:29561
+ready@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:14554
+global code@https://www.eluniversal.com.mx/sites/default/files/js/js_5MBSDVaKp0ZrTbereBRwxNdliSHd70wm-vT7a24Zhu8.js:39:903
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.404Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  (anonymous function) (https://www.eluniversal.com.mx/sites/default/files/adrum/adrum.js:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.411Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: Error: [ng:areq] http://errors.angularjs.org/1.2.11/ng/areq?p0=menuHeader&p1=not%20a%20function%2C%20got%20undefined
+tb@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:899
+Pa@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:957
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:7:510
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:24566
+q@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:1:907
+F@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:20528
+f@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:14151
+f@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:14168
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:13841
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:592
+$eval@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:10:3008
+$apply@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:10:3291
+https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:554
+d@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:7777
+c@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:445
+Xb@https://www.eluniversal.com.mx/sites/default/files/js/js_00TitonwR9RV5U8FKntlO92AU_aKdUr5D49ee6hNy8M.js:4:649
+https://www.eluniversal.com.mx/sites/default/files/js/js_5MBSDVaKp0ZrTbereBRwxNdliSHd70wm-vT7a24Zhu8.js:59:135
+o@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:29350
+add@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:29561
+ready@https://www.eluniversal.com.mx/sites/default/files/js/js_UsJCaTKadQHcBxW3InvotRkwEO94ieAIN0hsSq5sbL4.js:1:14554
+global code@https://www.eluniversal.com.mx/sites/default/files/js/js_5MBSDVaKp0ZrTbereBRwxNdliSHd70wm-vT7a24Zhu8.js:59:106
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.411Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  (anonymous function) (https://www.eluniversal.com.mx/sites/default/files/adrum/adrum.js:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.669Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: ReferenceError: Can't find variable: googletag
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.669Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  global code (https://www.eluniversal.com.mx/buscar/policia%20muerto:2)
+  insertBefore (:0)
+  activateScript (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  run (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.670Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: ReferenceError: Can't find variable: googletag
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.670Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  global code (https://www.eluniversal.com.mx/buscar/policia%20muerto:2)
+  insertBefore (:0)
+  activateScript (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  run (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.671Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - msg: ReferenceError: Can't find variable: googletag
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-01T11:52:59.671Z] Session [24525a80-fc9e-11e9-b127-8d8c6d73bd32] - page.onError - stack:
+  global code (https://www.eluniversal.com.mx/buscar/policia%20muerto:2)
+  insertBefore (:0)
+  activateScript (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  run (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+  (anonymous function) (https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error

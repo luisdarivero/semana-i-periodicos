@@ -1,0 +1,40 @@
+ * Serving Flask app "flaskApp" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/home/ubuntu/project/flaskApp.py", line 44, in <module>
+    application.run(debug=True, host = '0.0.0.0', port = 80)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+PermissionError: [Errno 13] Permission denied
+ * Serving Flask app "flaskApp" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "flaskApp.py", line 44, in <module>
+    application.run(debug=True, host = '0.0.0.0', port = 80)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+PermissionError: [Errno 13] Permission denied
+python3: can't open file './dlaskApp.py': [Errno 2] No such file or directory
+ * Serving Flask app "flaskApp" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "./flaskApp.py", line 44, in <module>
+    application.run(debug=True, host = '0.0.0.0', port = 80)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+PermissionError: [Errno 13] Permission denied
